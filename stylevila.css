@@ -1,0 +1,111 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{text-decoration: none;}
+
+body {
+    background: black
+}
+
+/* base */
+
+body{
+    font: 400 1rem "Dm Sans" , sans-serif;
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+}
+h1{
+    font: 700 1.875rem 'poppins' , sans-serif;
+}
+
+.buton{color;
+display: inline-block;
+color: red;
+height: 3.5rem;
+transition: 0.3s;
+}
+.buton:hover{
+
+}
+
+/* ----variables---- */
+:root{
+         /* colors */
+  --hue:200 ;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 70% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 10% 10%);
+ 
+
+}
+
+/* ----layout----- */
+#header{background: rgb(226, 69, 12);
+    border-bottom: 1px;
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+    align-items: center;
+}
+
+.logo{
+    font: 700 1.31rem 'poppins' , sans-serif;
+    color: black;
+
+}
+.logo span {
+    color: rgb(197, 4, 20)000;
+} 
+.container{
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.section{
+    padding: 5rem;
+}
+#logo2{color: rgb(226, 69, 12);
+}
+
+
+#logo3{color:rgb(4, 197, 178) ;}
+
+/* home */
+#home .container{
+    margin: 0;
+}
+#home .image: ::before{
+content:'';
+height: 2rem;
+width: 2rem;
+background:var(--base-color-second);
+position:absolute;
+top: 16.8;
+z-index: 0;
+}
+
